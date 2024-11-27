@@ -1,0 +1,234 @@
+.product-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0;
+    width: 570px;
+    font-family: "Roboto";
+    border: 1px solid #777;
+    /* box-shadow: 0 0 20px 0px #ddd; */
+    /* background-color: #2b3039; */
+    background-color: #616161;
+    /* border: 1px solid #eee; */
+}
+
+/* .product-items-container:hover {
+    background-color: #3d4452;
+} */
+
+.iphone-item-details-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 20px;
+    /* user-select: none; */
+}
+
+.product-img-container {
+    height: 388px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px 0 0 8px;
+}
+
+.product-img {
+    border-radius: 8px 0 0 8px;
+    width: 240px;
+    height: auto;
+}
+
+.heading-fav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.favorite-product-btn {
+    background-color: transparent;
+    border: 0;
+    height: 40px;
+}
+
+.product-fav-icon {
+    color: #fff;
+}
+
+.product-name {
+    padding-top: 15px;
+    font-size: 21.5px;
+    color: #e5e5e5;
+    font-weight: 400;
+    text-align: start;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.product-item-details-list-container {
+    list-style: circle;
+    width: 270px;
+    border: 0;
+    margin: 10px 0;
+    margin-top: 5px;
+    line-height: 27px;
+}
+
+.product-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    gap: 8px;
+    font-family: sans-serif;
+    margin: 5px 0;
+}
+
+.product-item {
+    color: #cecece;
+    font-size: 15px;
+}
+
+.item {
+    color: #fff;
+}
+
+.product-price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+}
+
+.prouct-price {
+    /* color: #616161; */
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.product-price-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #cecece;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.product-btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.learn-more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkgrey;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 5px;
+    width: 110px;
+    color: #e6e6e6;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.add-to-cart-btn {
+    border-radius: 5px;
+    font-family: "Roboto";
+    height: 45px;
+    width: 60px;
+    border: 0;
+    border: 1px solid #bbb;
+    /* background-color: rgb(169, 169, 169); */
+    color: #fff;
+    font-weight: 400;
+    background-color: rgb(169, 169, 169);
+}
+
+.learn-more-btn:active,
+.add-to-cart-btn:active {
+    transform: translateY(2px);
+}
+
+.logout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+}
+
+.logout-heading {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logout-close-btn {
+    font-family: "Roboto";
+    /* background-color: darkgray; */
+}
+
+.product-login {
+    height: 40px;
+    width: 100px;
+    background: linear-gradient(to right, deepskyblue, rgb(86, 187, 221));
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    display: block;
+}
+
+.view-all-link {
+    text-decoration: none;
+    color: #eed130;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 170px;
+    gap: 3px;
+    align-self: flex-end;
+    margin-bottom: 8px;
+}
+
+.arrow {
+    margin-top: 5px;
+}
+
+.view-all-link,
+.arrow {
+    font-family: "Lucida Calligraphy";
+}
+
+.view-all-link:hover {
+    font-family: "Lucida Calligraphy";
+    text-decoration: underline;
+}

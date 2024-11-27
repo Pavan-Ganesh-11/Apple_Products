@@ -1,0 +1,130 @@
+.shipment-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #555c63;
+    border-left: 4px solid #b7c2ce;
+    /* padding: 15px; */
+    border-radius: 5px;
+}
+
+.shipment-product-items-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.shipment-item-img {
+    width: 140px;
+    /* margin-left: 8px; */
+    min-height: 100px;
+    max-height: 170px;
+}
+
+.shipment-items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.shipment-item-heading-price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shipment-item-heading {
+    font-size: 20px;
+    color: #fff;
+}
+
+.shipment-item-specifications-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 7px;
+    list-style: circle;
+}
+
+.shipment-item-specification {
+    color: #97a8ac;
+    font-size: 13px;
+}
+
+.shipment-item-price {
+    font-size: 16px;
+    color: #fff;
+}
+
+.shipment-quantity-name {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.shipment-quantity {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.order-and-shipment-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.shipment-order-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.order-name {
+    margin-bottom: 0;
+    color: #9fa0a0;
+}
+
+.order-number {
+    margin-bottom: 0;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.shipment-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cancel-shipment-item-btn {
+    height: 37px;
+    width: 80px;
+    border: 0;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.tracking-order-shipment-item-btn {
+    height: 37px;
+    width: 140px;
+    border: 0;
+    /* background-color: green; */
+    /* background-color: deepskyblue; */
+    border-radius: 5px;
+    color: #fff;
+}

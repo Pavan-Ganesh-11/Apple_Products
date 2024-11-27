@@ -1,0 +1,22 @@
+.empty-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+}
+
+.empty-cart-img {
+    width: 360px;
+}
+
+.empty-card-heading {
+    font-size:32px;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding: 15px 0;
+}
+
+.empty-card-btn {
+    font-family: "Roboto";
+}

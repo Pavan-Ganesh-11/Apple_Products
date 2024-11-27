@@ -1,0 +1,62 @@
+.payment-gateway-container {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #272b34;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 60px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.payment-gateway-heading-timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    padding-bottom: 10px;
+    gap: 15px;
+    width: 100%;
+}
+
+.payment-gateway-heading {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.timer-heading {
+    font-size: 24px;
+    color: #fff;
+    font-family: "Roboto";
+    margin-bottom: 0;
+}
+
+.timer {
+    background-color: #596063;
+    padding: 3px 8px;
+    border-radius: 2px;
+}
+
+.payment-gateway-and-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    width: 100%;
+}

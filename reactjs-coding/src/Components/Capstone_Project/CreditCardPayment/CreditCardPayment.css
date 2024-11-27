@@ -1,0 +1,148 @@
+.payment-field-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.payment-heading-desc-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-field-heading {
+    font-size: 20px;
+    color: #fff;
+}
+
+.payment-field-desc {
+    font-size: 15px;
+    color: #7e8188;
+    margin-bottom: 0;
+}
+
+.payment-field-details-card-number-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.card-number-example {
+    color: rgb(138, 145, 148);
+    margin-bottom: 0;
+}
+
+.card-number-example-note {
+    color: #fff;
+}
+
+.payment-input-card-number-container {
+    position: relative;
+    width: 100%;
+}
+
+.payment-input-card-number {
+    padding: 0 50px !important;
+}
+
+.card-number-icon {
+    position: absolute;
+    z-index: 50000;
+    left: 13px;
+    top: 8.5px;
+    color: #a1b5bc;
+    pointer-events: none;
+}
+
+.payment-input-container-expiry-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.payment-field-input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #869094;
+    background-color: #5d6775;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.cvv-input {
+    text-align: center;
+}
+
+.cvv-input::-webkit-outer-spin-button,
+.cvv-input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.payment-field-input-card-1,
+.payment-field-input-card-2 {
+    height: 38px;
+    width: 50px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #869094;
+    background-color: #5d6775;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.payment-field-input:focus {
+    border-color: aqua;
+    background-color: rgb(0, 88, 88);
+}
+
+.payment-card-slash {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.credit-card-input {
+    position: relative;
+}
+
+.toggle-credit-card-password-container {
+    position: absolute;
+        right: 44.5%;
+}
+
+.toggle-credit-card-password-icons {
+    cursor: pointer;
+    color: #000;
+}
+
+.pay-now-btn {
+    height: 45px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(to left, deepskyblue, pink);
+    font-size: 18px;
+}
+
+.pay-now-btn:active {
+    transform: scale(0.98);
+}
+
+.error-msg {
+    font-size: 14px;
+    color: #e25f5f;
+    margin-bottom: 0;
+    margin-top: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+}

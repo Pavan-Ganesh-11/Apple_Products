@@ -1,0 +1,368 @@
+.veg-recipes-items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(242, 249, 255);
+    padding: 40px;
+    margin-top: 100px;
+}
+
+.veg-recipes-heading {
+    font-family: "Lucida Calligraphy";
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    height: 40px;
+    width: 400px;
+    padding: 0 16px;
+    font-family: sans-serif;
+}
+
+.search-input::placeholder {
+    font-size: 16px;
+    font-family: "Roboto";
+    margin-top: 1px;
+}
+
+.veg-recipes-search-btn {
+    /* background-color: lightgray; */
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.veg-recipes-search-btn:active {
+    transform: scale(0.95);
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.veg-recipes-card-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22px;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    border: 1px solid #888;
+}
+
+.add-veg-recipes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.add-veg-recipes-heading {
+    font-family: "Lucida Calligraphy";
+    margin-bottom: 10px;
+    font-size: 34px;
+    margin-top: 15px;
+}
+
+.add-veg-recipes-desc {
+    color: rgb(133, 133, 133);
+    font-family: "Roboto";
+}
+
+.recipes-search-result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes-search-result-img {
+    width: 350px;
+    margin: 30px 0;
+}
+
+.recipes-search-result-heading {
+    font-size: 24px;
+    font-family: "Roboto";
+    width: 400px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.recipes-search-result-desc {
+    font-size: 17px;
+    font-family: "Roboto";
+    color: gray;
+}
+
+.veg-recipes-failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.veg-recipes-falilure-img {
+    width: 380px;
+    margin: 30px 0;
+}
+
+.veg-recipes-failure-heading {
+    font-size: 28px;
+    font-family: "Roboto";
+    width: 400px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.veg-recipes-failure-desc {
+    font-size: 17px;
+    font-family: "Roboto";
+    color: gray;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.veg-recipes-failure-button {
+    font-family: "Roboto";
+    width: 80px;
+    margin: 7px;
+}
+
+@media screen and (max-width: 576px) {
+    .pop-up-content-content {
+        width: 75% !important;
+        border-radius: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pop-up-content-content {
+        width: 75% !important;
+        border-radius: 16px;
+    }
+}
+
+.pop-up-content-content {
+    border-radius: 16px;
+    width: 600px;
+}
+
+
+.veg-recipes-popup-container {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.popup-hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 97%;
+}
+
+.veg-recipes-button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-veg-recipes-btn {
+    font-family: "Roboto";
+}
+
+.close-veg-recipes-btn {
+    font-family: "Roboto";
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.veg-recipes-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30% !important;
+    /* border: 1px solid #aaa; */
+    border: 0;
+    border-radius: 20px;
+    /* box-shadow: 0 0 20px 2px #aaa; */
+    padding: 50px 60px;
+    /* height: 490px; */
+    min-width: 390px !important;
+}
+
+.veg-recipes-input {
+    width: 100% !important;
+    font-family: "Roboto";
+    font-weight: lighter;
+}
+
+.veg-recipes-input::-webkit-outer-spin-button,
+.veg-recipes-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.veg-recipes-label {
+    font-size: 15px !important;
+    margin-bottom: 1px !important;
+    font-family: "Bree Serif";
+}
+
+.veg-recipes-required-field {
+    color: red;
+}
+
+.veg-recipes-error-msg {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+.veg-recipes-btn {
+    font-family: "Lucida Calligraphy" !important;
+    letter-spacing: 1px;
+}
+
+.veg-recipes-btn:active {
+    transform: translateY(2px);
+}
+
+/* .veg-recipes-to-login-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.veg-recipes-to-login-btn {
+    font-family: "Roboto";
+    width: 110px;
+    border-radius: 6px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.veg-recipes-search-result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.veg-recipes-search-result-img {
+    width: 350px;
+    margin: 30px 0;
+}
+
+.veg-recipes-search-result-heading {
+    font-size: 22px;
+    font-family: "Roboto";
+    width: 420px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.veg-recipes-search-result-desc {
+    font-size: 17px;
+    font-family: "Roboto";
+    color: gray;
+}
+
+.veg-recipes-failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.veg-recipes-falilure-img {
+    width: 350px;
+    margin: 30px 0;
+}
+
+.veg-recipes-failure-heading {
+    font-size: 28px;
+    font-family: "Roboto";
+    width: 400px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.veg-recipes-failure-desc {
+    font-size: 17px;
+    font-family: "Roboto";
+    color: gray;
+}
+
+.veg-recipes-failure-button {
+    font-family: "Roboto";
+}
+
+@media screen and (max-width: 767px) {
+    .veg-recipes-heading {
+        font-size: 30px;
+    }
+
+    .form-container {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .search-input {
+        width: 280px;
+    }
+
+    .veg-recipes-search-btn {
+        width: 60px;
+    }
+
+    .veg-recipes-card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

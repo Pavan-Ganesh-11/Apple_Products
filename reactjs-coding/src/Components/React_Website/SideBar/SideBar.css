@@ -1,0 +1,145 @@
+.main-content-container {
+    width: 380px;
+    padding: 10px 19px;
+    overflow: auto;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    margin-top: 60px;
+}
+
+.side-bar-content-container {
+    /* width: 360px;
+    height: 80vh;
+    padding: 10px 19px;
+    overflow: auto; */
+}
+
+.side-bar-heading,
+.side-bar-heading-learn-react {
+    color: grey;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+}
+
+.side-bar-heading-learn-react {
+    margin-top: 30px;
+}
+
+.sidebar-hr {
+    width: 95%;
+    border: 1px solid #ddd;
+}
+
+.side-bar-learn-react-list-container,
+.side-bar-list-container {
+    list-style: none;
+    padding: 0px 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.side-bar-btn {
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-size: 16px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar-btn:focus {
+    background-color: rgb(230 247 255);
+    color: #076b8d;
+}
+
+.side-bar-btn:hover {
+    background-color: #eeeeee;
+}
+
+.side-bar-list {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar-chevron-icon {
+    font-size: 18px;
+}
+
+.side-bar-list-link {
+    text-decoration: none;
+    /* color: #000; */
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* .side-bar-list-link:active {
+    color: #000;
+} */
+
+.side-bar-card {
+    height: 55px;
+    width: 90%;
+    box-shadow: 0 0 10px 1px #eee;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    position: fixed;
+    background-color: #fff;
+    bottom: 105px;
+    width: 340px;
+    /* z-index: 1; */
+}
+
+.side-bar-card-heading {
+    font-size: 18px;
+}
+
+.side-bar-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar-like-btn,
+.sidebar-dislike-btn {
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    padding: 10px;
+}
+
+.like-icon,
+.dislike-icon {
+    color: #000;
+    font-size: 22px;
+}

@@ -1,0 +1,86 @@
+.login-container {
+    min-height: 100vh;
+    font-family: "Roboto";
+    /* background-color: rgb(241, 241, 241);
+    background-color: #ffffffb0; */
+    /* background-image: linear-gradient(to right, rgb(72, 214, 239), rgb(162, 94, 229), rgb(46, 175, 226)); */
+}
+
+.login-heading {
+    font-family: "Lucida Calligraphy";
+}
+
+.row {
+    min-height: 100vh;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30% !important;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 2px #aaa;
+    padding: 50px 60px;
+    min-width: 360px !important;
+}
+
+.login-label {
+    font-size: 15px !important;
+    margin-bottom: 2px !important;
+    font-family: "Bree Serif";
+}
+
+.login-input {
+    width: 100% !important;
+    font-family: "Roboto";
+    font-weight: lighter;
+}
+
+.login-input::placeholder {
+    font-size: 15px;
+}
+
+.login-required-field {
+    color: red;
+}
+
+.login-error-msg {
+    font-size: 14px;
+    color: red;
+    margin-bottom: 0;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.login-btn {
+    font-family: "Lucida Calligraphy";
+    letter-spacing: 1px;
+}
+
+.login-btn:active {
+    transform: translateY(2px);
+}
+
+.login-to-register-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.signup-btn {
+    font-family: "Roboto";
+    width: 120px;
+    border-radius: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-btn:hover {
+    box-shadow: 0 0 10px 1px #aaa;
+}

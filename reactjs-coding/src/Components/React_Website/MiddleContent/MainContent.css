@@ -1,0 +1,132 @@
+.middle-content-main-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-height: 100vh;
+    overflow: auto;
+    font-family: sans-serif;
+    padding: 30px 30px;
+    width: 54%;
+    position: absolute;
+    left: 24%;
+    margin-top: 60px;
+}
+
+.middle-content-link-container {
+    display: flex;
+    align-items: center;
+}
+
+.middle-content-learn-react {
+    text-decoration: none;
+    color: #076b8d;
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.middle-content-chevron-right {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.middle-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle-content-main-heading {
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.middle-content-main-para {
+    font-size: 21px;
+    line-height: 35px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.middle-content-card {
+    padding: 22px 35px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.middle-content-card-heading {
+    font-size: 25px;
+}
+
+.middle-content-card-list-container {
+    line-height: 30px;
+    color: rgb(100, 99, 99);
+    padding: 0 25px;
+}
+
+.middle-content-li {
+    margin-left: 0px;
+}
+
+.middle-content-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-content-2-heading {
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.middle-content-2-desc {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.middle-content-2-desc-2 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.middle-content-card-2 {
+    box-shadow: 0 0 20px 1px #eee;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.keyword {
+    color: rgb(235, 105, 105);
+}
+
+.function_name {
+    color: rgb(72, 72, 182);
+}
+
+.middle-content-code {
+    padding-left: 20px;
+}
+
+.return {
+    color: rgb(235, 105, 105);
+}
+
+.tag-container {
+    padding: 0 20px;
+}
+
+.tag {
+    color: green;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 249, 255);
+    min-height: 100vh;
+    font-family: "Roboto";
+    padding: 40px 0;
+    padding-top: 120px;
+}
+
+.about-heading {
+    font-family: "Lucida Calligraphy";
+    margin-bottom: 30px;
+}
+
+.about-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 80%;
+    padding: 50px;
+}
+
+.user-name {
+    /* font-family: "Lucida Calligraphy"; */
+    font-family: "Times New Roman";
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.greeting {
+    font-family: "Qwitcher Grypen";
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.user-img {
+    width: 200px;
+}
+
+.about-desc {
+    color: rgb(169, 169, 169);
+    font-family: sans-serif;
+    line-height: 25px;
+    user-select: none;
+}
+
+.bact-to-home-btn {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: gray;
+    border: 0;
+    color: #fff;
+    width: 130px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .greeting {
+        font-size: 50px;
+    }
+
+    .about-desc {
+        text-align: center;
+    }
+}

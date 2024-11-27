@@ -1,0 +1,96 @@
+.payment-netbanking-field-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.payment-netbanking-heading-desc-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-netbanking-field-heading {
+    font-size: 18px;
+    color: #fff;
+}
+
+.upi-heading {
+    font-size: 18px;
+}
+
+.payment-netbanking-field-desc {
+    font-size: 15px;
+    color: #7e8188;
+    margin-bottom: 0;
+}
+
+.payment-netbanking-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.payment-netbanking-field-input, .payment-bank-field-input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #869094;
+    background-color: #5d6775;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+    width: 260px;
+}
+
+.account-input {
+    padding: 0 20px 0 7px;
+}
+
+.payment-netbanking-field-input:focus {
+    border-color: aqua;
+    background-color: rgb(0, 88, 88);
+}
+
+.netbanking-input {
+    position: relative;
+}
+
+.toggle-netbanking-password-container {
+    position: absolute;
+    left: 54%;
+    /* top: 60%; */
+}
+
+.toggle-netbanking-password-icons {
+    cursor: pointer;
+    color: #000;
+}
+
+.netbanking-pay-now-btn {
+    height: 45px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(to left, deepskyblue, pink);
+    font-size: 18px;
+}
+
+.netbanking-pay-now-btn:active {
+    transform: scale(0.98);
+}
+
+.netbanking-error-msg {
+    font-size: 14px;
+    color: #e25f5f;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+}

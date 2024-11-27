@@ -1,0 +1,33 @@
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 100%;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.footer-heading {
+    font-size: 24px;
+    font-family: "Lucida Calligraphy";
+    margin-bottom: 5px;
+}
+
+
+.footer-copyright {
+    font-size: 20px;
+    color: #ddd;
+}
+
+.copyright {
+    color: #eee;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

@@ -1,0 +1,18 @@
+@media screen and (max-width: 767px) {
+    .header-sm-logout-btn {
+        display: block;
+        height: 40px;
+        color: #fff;
+        border-radius: 5px;
+        border: 0;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 15px;
+        background-color: transparent;
+    }
+
+    .header-sm-logout-btn:hover {
+        background-color: #eee;
+        background-color: #b9b9b9;
+    }
+}

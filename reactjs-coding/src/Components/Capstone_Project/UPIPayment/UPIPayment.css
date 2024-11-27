@@ -1,0 +1,128 @@
+.payment-upi-field-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.payment-upi-heading-desc-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-upi-field-heading {
+    font-size: 18px;
+    color: #fff;
+}
+
+.upi-heading {
+    font-size: 18px;
+}
+
+.payment-upi-field-desc {
+    font-size: 15px;
+    color: #7e8188;
+    margin-bottom: 0;
+}
+
+.payment-upi-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.payment-upi-field-input,
+.payment-bank-field-input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #869094;
+    background-color: #5d6775;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+    width: 260px;
+}
+
+.upi-account-input {
+    padding: 0 20px 0 7px;
+}
+
+.payment-upi-field-input:focus {
+    /* border-color: rgb(0, 221, 255);
+    background-color: rgb(25, 96, 110); */
+    border-color: aqua;
+    background-color: rgb(0, 88, 88);
+}
+
+/* .paymnet-upi-password-input-container {
+    position: relative;
+} */
+
+.upi-password {
+    position: relative;
+}
+
+.toggle-password-container {
+    position: absolute;
+    left: 54%;
+}
+
+.toggle-password-icons {
+    cursor: pointer;
+    color: #000;
+}
+
+.upi-pay-now-btn {
+    height: 45px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(to left, deepskyblue, pink);
+    font-size: 18px;
+}
+
+.upi-pay-now-btn:active {
+    transform: scale(0.98);
+}
+
+.upi-error-msg {
+    font-size: 14px;
+    color: #e25f5f;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+}
+
+.generate_qr_code-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.QRCode {
+    border: 0;
+    border-radius: 5px;
+    /* color: #fff; */
+    /* background-color: deepskyblue; */
+    transition: .6s;
+    align-self: flex-end;
+    font-size: 14px;
+}
+
+.qr_scan_to_pay {
+    color: #7e8188;
+    font-size: 16px;
+    padding-right: 55px;
+    margin-top: 10px;
+}

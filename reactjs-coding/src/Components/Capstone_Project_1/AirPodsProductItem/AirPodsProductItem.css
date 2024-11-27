@@ -1,0 +1,39 @@
+.specification-details-container {
+    border: 0;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.specification-name {
+    padding-top: 15px;
+    font-size: 24px;
+    font-family: "Roboto";
+    padding-top: 30px;
+}
+
+.specification-details {
+    padding: 30px auto;
+    list-style: none;
+    line-height: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.specification-item-title {
+    font-family: sans-serif;
+    color: gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 200px;
+}
+
+.specification-item-value {
+    font-family: "Roboto";
+    color: #000;
+    margin-left: 10px;
+    /* width: 400px; */
+    /* margin-left: 100px; */
+    padding-left: 10px;
+}

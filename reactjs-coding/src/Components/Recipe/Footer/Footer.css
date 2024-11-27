@@ -1,0 +1,43 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    background-color: #0d2436;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-heading {
+    font-size: 26px;
+    color: #fff;
+    font-family: "Lucida Calligraphy";
+    margin-bottom: 0;
+    cursor: no-drop;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.footer-copyright {
+    color: #959ead;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footer-mail {
+    color: #959ead;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footer-address {
+    color: #959ead;
+    font-size: 16px;
+    margin-bottom: 0;
+}

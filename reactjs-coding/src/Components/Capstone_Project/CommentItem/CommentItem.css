@@ -1,0 +1,112 @@
+.comments-list-item {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+    border-bottom: 1px solid #aaa;
+}
+
+.comment-profile {
+    height: 38px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0;
+    /* background-color: black; */
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 1px;
+    padding-left: 1px;
+    /* background-color: purple; */
+}
+
+.comment-details {
+    width: 100%;
+}
+
+.comments-name-rating-time-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.comment-person-name {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Roboto";
+    margin-bottom: 0;
+}
+
+.comments-person-rating {
+    /* width: 60px; */
+    /* height: 30px; */
+    border-radius: 3px;
+    margin-bottom: 0;
+    /* background-color: rgb(161, 163, 163); */
+    /* background-color: rgb(246, 246, 246); */
+    border: 0;
+    border: 1px solid #ccc;
+    /* box-shadow: 0 0 2px 2px #eee; */
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 15px;
+    padding: 2px 10px;
+}
+
+.comments-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    color: #8e8e8e;
+}
+
+.comments-desc {
+    font-size: 17px;
+    color: #000;
+    font-family: "Roboto";
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.comment-like-delete-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.comment-like {
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: "Roboto";
+    border: 0;
+    background-color: transparent;
+}
+
+.liked {
+    color: rgb(34, 135, 235);
+}
+
+.comments-delete-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: transparent;
+
+}

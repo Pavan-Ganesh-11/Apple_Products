@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.recipe-item-container {
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-family: "Bree Serif";
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* box-shadow: 0 0 10px 2px #ddd; */
+    cursor: pointer;
+}
+
+.recipe-img {
+    height: 250px;
+    width: 280px;
+    border-radius: 15px;
+}
+
+.recipe-name-heading {
+    color: #000;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    align-self: flex-start;
+    font-size: 24px;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.recipe-desc {
+    font-family: "Roboto";
+    color: gray;
+}
+
+.recipe-price {
+    color: gray;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-style: italic; */
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 17.5px;
+    font-style: normal;
+    margin-right: 5px;
+    color: #333;
+    font-weight: 700;
+}
+
+.recipe-btn {
+    padding: 10px;
+    background-color: lightgray;
+    width: 170px;
+    border-radius: 6px;
+    border: 0;
+    display: block;
+}
+
+.recipe-btn:active {
+    transform: translateY(2px);
+}
+
+.recipe-sm-btn {
+    display: none;
+}
+
+.quantity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.quantity-count {
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 576px) {
+    .recipe-item-container {
+        height: auto;
+    }
+
+    .recipe-img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .recipe-sm-btn {
+        display: block;
+        padding: 10px;
+        background-color: lightgray;
+        width: 60px;
+        border-radius: 6px;
+        border: 0;
+    }
+
+    .recipe-btn {
+        padding: 10px;
+        background-color: lightgray;
+        width: 170px;
+        border-radius: 6px;
+        border: 0;
+        display: none;
+    }
+
+    .recipe-sm-btn:active {
+        transform: scale(0.95);
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .recipe-item-container {
+        height: auto;
+    }
+
+    .recipe-img {
+        width: 250px;
+        height: 280px;
+    }
+}
+
+@media screen and (mac-width: 767px) {
+    .add-recipe-desc {
+        text-align: center;
+    }
+}

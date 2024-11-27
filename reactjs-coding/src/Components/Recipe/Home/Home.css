@@ -1,0 +1,127 @@
+.wcu-container {
+    padding: 40px;
+    font-family: "Roboto";
+    background-color: rgb(242, 249, 255);
+}
+
+.wcu-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.span-offers {
+    font-weight: 700;
+    font-style: italic;
+    color: #222;
+    font-size: 17px;
+}
+
+.recipe-container {
+    padding: 40px;
+}
+
+.recipe {
+    font-size: 32px;
+    font-family: "Roboto";
+    margin-bottom: 0;
+}
+
+.view-all-recipe-link {
+    text-decoration: none;
+    color: #d0b200;
+    text-decoration: none;
+    font-family: "Lucida Calligraphy";
+    gap: 2px;
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.view-all-recipe-link:hover {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.recipe-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.follow-us-section {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fus-heading {
+    font-size: 32px;
+    font-family: "Roboto";
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.follow-us-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.follow-us-btn {
+    border: 0;
+    background-color: #faf7e8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.fus-icons-link {
+    text-decoration: none;
+    color: #d0b200;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-us-icons {
+    font-size: 35px;
+    color: #d0b200;
+}
+
+@media screen and (max-width: 567px) {
+    .card {
+        width: 360px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .recipe-card-container {
+        flex-wrap: wrap;
+    }
+
+    .card-container {
+        align-self: center;
+    }
+}

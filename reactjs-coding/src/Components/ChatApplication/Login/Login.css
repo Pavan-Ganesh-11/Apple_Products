@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: url("../../../Assets/ChatApplication/Login_Page_bg.jfif") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 120px;
+    font-family: "Poppins";
+}
+
+.login-logo {
+    color: #fff;
+    text-align: center;
+    width: 380px;
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    /* border: 1px solid #eee; */
+    border-radius: 20px;
+    padding: 50px;
+    height: 350px;
+    width: 380px;
+    box-shadow: 0 0 15px 1px #d2d2d2;
+    backdrop-filter: blur(25px);
+    gap: 20px;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.input-email,
+.input-password {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    height: 40px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "poppins";
+    
+}
+
+.label-email, .label-password {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Roboto";
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.7s;
+    text-align: start;
+}
+.input-email:focus~.label-email, .input-password:focus~.label-password {
+    top: -5px !important;
+    font-size: 14px;
+}
+
+
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #fff;
+    height: 40px;
+    transition: 0.3s linear;
+    margin-top: 20px;
+}
+
+.login-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 0;
+}
+
+.login-btn:active {
+    transform: scale(0.9);
+}

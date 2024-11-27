@@ -1,0 +1,952 @@
+{
+  "login": [
+    {
+      "id": "f99a",
+      "username": "Pavan",
+      "email": "pavan@gmail.com",
+      "password": "P@van@123",
+      "confirmPassword": "P@van@123"
+    },
+    {
+      "id": "bc74",
+      "username": "Sai",
+      "email": "sai2304@gmail.com",
+      "password": "saiNaresh@123",
+      "confirmPassword": "saiNaresh@123"
+    }
+  ],
+  "OTP": {
+    "otp": 284785
+  },
+  "recipeHomeList": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://i.ndtvimg.com/i/2014-12/chicken-kebab_625x300_41419060325.jpg",
+      "recipeHeading": "Staters",
+      "navigation_link": "staters"
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://sukhis.com/app/uploads/2022/11/veggie-platter-1024x753.jpg",
+      "recipeHeading": "Veg Meals",
+      "navigation_link": "veg_recipes"
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://i.ytimg.com/vi/2u983B2wD1k/maxresdefault.jpg",
+      "recipeHeading": "Non Veg",
+      "navigation_link": "non_veg_recipes"
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRViwgjjbLp7grCuvlP6m-iaCOcaimUMdEyw&s",
+      "recipeHeading": "Desserts",
+      "navigation_link": "desserts"
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://www.simplyrecipes.com/thmb/DQwhwMW7pnchtiucsnNR3J1Ul30=/390x260/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Chex-Mix-LEAD-c40ac62e480a4dd99388bc176c155bca.jpg",
+      "recipeHeading": "Snacks",
+      "navigation_link": "snacks"
+    }
+  ],
+  "recipesList": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://i.ndtvimg.com/i/2014-12/chicken-kebab_625x300_41419060325.jpg",
+      "recipeHeading": "Staters",
+      "navigation_link": "staters"
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://sukhis.com/app/uploads/2022/11/veggie-platter-1024x753.jpg",
+      "recipeHeading": "Veg Meals",
+      "navigation_link": "veg_recipes"
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://i.ytimg.com/vi/2u983B2wD1k/maxresdefault.jpg",
+      "recipeHeading": "Non Veg Meals",
+      "navigation_link": "non_veg_recipes"
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRViwgjjbLp7grCuvlP6m-iaCOcaimUMdEyw&s",
+      "recipeHeading": "Desserts",
+      "navigation_link": "desserts"
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://www.simplyrecipes.com/thmb/DQwhwMW7pnchtiucsnNR3J1Ul30=/390x260/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Chex-Mix-LEAD-c40ac62e480a4dd99388bc176c155bca.jpg",
+      "recipeHeading": "Snacks",
+      "navigation_link": "snacks"
+    }
+  ],
+  "staters": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://indianheartbeat.in/wp-content/uploads/2023/01/paneer-tikka-is-indian-dish-made-from-chunks-cottage-cheese-marinated-spices-grilled-tandoor_466689-76784.webp",
+      "recipeHeading": "Paneer Tikka",
+      "recipeDesc": "Paneer Tikka is Best Recipe",
+      "recipePrice": "100",
+      "navigationLink": "staters"
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/07/onion-salad-recipe.jpg",
+      "recipeHeading": "Indian Onion Salad",
+      "recipeDesc": "Indian Onion Salad is Best Recipe",
+      "recipePrice": "100",
+      "navigationLink": "staters"
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://www.177milkstreet.com/assets/site/Recipes/Indian-Style-Tomato-Ginger-Soup-Cook-What-You-Have-Milk-Street.jpg",
+      "recipeHeading": "Tomato-Ginger Soup",
+      "recipeDesc": "Tomato-Ginger Soup is Best Recipe",
+      "recipePrice": "200",
+      "navigationLink": "staters"
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHRESiYmwBMp2OS85ffLQN4SYrRJIcyYqJag&s",
+      "recipeHeading": "Gobi Manchurian",
+      "recipeDesc": "Gobi Manchurian is Best Recipe",
+      "recipePrice": "220",
+      "navigationLink": "staters"
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://www.chiselandfork.com/wp-content/uploads/2017/09/bbq-chicken-kebabs-3.jpg",
+      "recipeHeading": "Chicken Kebabs",
+      "recipeDesc": "Chicken Kebabs is Best Recipe",
+      "recipePrice": "200",
+      "navigationLink": "staters"
+    },
+    {
+      "id": "6",
+      "recipeImageUrl": "https://silkroadrecipes.com/wp-content/uploads/2021/06/Corn-Pakoda-Indian-Fritters-square-500x375.jpg",
+      "recipeHeading": "Corn Pakora",
+      "recipeDesc": "Corn Pakora is Best Recipe",
+      "recipePrice": "120",
+      "navigationLink": "staters"
+    }
+  ],
+  "STATERS": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://indianheartbeat.in/wp-content/uploads/2023/01/paneer-tikka-is-indian-dish-made-from-chunks-cottage-cheese-marinated-spices-grilled-tandoor_466689-76784.webp",
+      "recipeName": "Paneer Tikka",
+      "recipeDesc": "Paneer tikka is a popular Indian appetizer made from marinated paneer cubes grilled to perfection. The paneer is coated in a spiced yogurt mixture, giving it a rich and tangy flavor. It’s often skewered with vegetables like bell peppers and onions. Served hot, it’s a delicious and smoky treat perfect for any occasion.",
+      "recipePrice": "100",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Paneer"
+        },
+        {
+          "ingredient": "Yogurt (hung curd or Greek yogurt)"
+        },
+        {
+          "ingredient": "Spices (red chili powder, turmeric, garam masala, cumin powder, coriander powder)"
+        },
+        {
+          "ingredient": "Vegetables (onions, bell peppers)"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/07/onion-salad-recipe.jpg",
+      "recipeName": "Indian Onion Salad",
+      "recipeDesc": "Indian Onion Salad, also known as Laccha Pyaaz, is a simple and refreshing side dish made with thinly sliced onions, lemon juice, green chilies, and fresh coriander. This salad is often served with North Indian curries and tandoori dishes, adding a crunchy and tangy flavor to the meal. It's naturally vegan and gluten-free",
+      "recipePrice": "100",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Indian Onion Salad, also known as Laccha Pyaaz, is a simple and refreshing side dish made with thinly sliced onions, lemon juice, green chilies, and fresh coriander12. This salad is often served with North Indian curries and tandoori dishes, adding a crunchy and tangy flavor to the meal3. It’s naturally vegan and gluten-free"
+        },
+        {
+          "ingredient": "Lemon juice - freshly squeezed for tanginess."
+        },
+        {
+          "ingredient": "Green chilies - finely chopped for a bit of heat."
+        },
+        {
+          "ingredient": "Coriander leaves - chopped for freshness and flavor."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://www.177milkstreet.com/assets/site/Recipes/Indian-Style-Tomato-Ginger-Soup-Cook-What-You-Have-Milk-Street.jpg",
+      "recipeName": "Tomato-Ginger Soup",
+      "recipeDesc": "Tomato-Ginger Soup is a comforting and flavorful dish that combines the tanginess of ripe tomatoes with the zesty warmth of fresh ginger. This vibrant soup is perfect for chilly days, offering a soothing blend of savory and spicy notes. Enjoy it as a light starter or a wholesome meal with a side of crusty bread.",
+      "recipePrice": "200",
+      "stock": "Not Available",
+      "ingredients": [
+        {
+          "ingredient": "Tomato-Ginger Soup desciption upto 4 lines"
+        },
+        {
+          "ingredient": "Ginger: Fresh ginger root, adding a zesty kick."
+        },
+        {
+          "ingredient": "Vegetable Stock: Enhances the flavor and provides the liquid base."
+        },
+        {
+          "ingredient": "Olive Oil: Used for sautéing and adding a touch of richness."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHRESiYmwBMp2OS85ffLQN4SYrRJIcyYqJag&s",
+      "recipeName": "Gobi Manchurian",
+      "recipeDesc": "Gobi Manchurian is a popular Indo-Chinese dish featuring crispy, batter-fried cauliflower florets tossed in a flavorful sauce made with soy sauce, chili sauce, and various aromatics like garlic, ginger, and scallions. It can be served as a dry appetizer or with a gravy, making it a versatile and delicious option for any meal.",
+      "recipePrice": "220",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Cauliflower: The main ingredient, cut into florets."
+        },
+        {
+          "ingredient": "Cornflour: Used to coat the cauliflower for a crispy texture."
+        },
+        {
+          "ingredient": "Soy Sauce: Adds a savory umami flavor."
+        },
+        {
+          "ingredient": "Chili Sauce: Provides the spicy kick."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://www.chiselandfork.com/wp-content/uploads/2017/09/bbq-chicken-kebabs-3.jpg",
+      "recipeName": "Chicken Kebabs",
+      "recipeDesc": "Chicken Kebabs are marinated bites of chicken, often combined with colorful vegetables, and grilled to perfection on skewers. The marinade, typically a mix of soy sauce, lemon juice, garlic, and seasonings, infuses the chicken with rich flavors. These kebabs are juicy, tender, and perfect for a flavorful meal",
+      "recipePrice": "200",
+      "stock": "Not Available",
+      "ingredients": [
+        {
+          "ingredient": "Chicken: Boneless, skinless chicken breasts or thighs, cut into bite-sized pieces."
+        },
+        {
+          "ingredient": "Yogurt: Acts as a tenderizer and base for the marinade."
+        },
+        {
+          "ingredient": "Garlic: Adds a robust flavor to the marinade."
+        },
+        {
+          "ingredient": "Spices: A mix of cumin, paprika, and salt for seasoning."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "recipeImageUrl": "https://silkroadrecipes.com/wp-content/uploads/2021/06/Corn-Pakoda-Indian-Fritters-square-500x375.jpg",
+      "recipeName": "Corn Pakora",
+      "recipeDesc": "Corn Pakora, also known as corn fritters, are a delightful Indian snack made from sweet corn kernels mixed with gram flour and spices. These fritters are deep-fried until golden and crispy, offering a perfect blend of crunch and flavor. Often enjoyed with a cup of tea, they are a popular choice during the monsoon season. Serve them hot with mint chutney or ketchup for a tasty treat.",
+      "recipePrice": "120",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Sweet corn kernels"
+        },
+        {
+          "ingredient": "Gram flour (besan)"
+        },
+        {
+          "ingredient": "Spices (red chili powder, turmeric, garam masala, cumin seeds)"
+        },
+        {
+          "ingredient": "Onions and green chilies"
+        }
+      ]
+    }
+  ],
+  "veg_recipes": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://www.connoisseurusveg.com/wp-content/uploads/2022/11/potato-curry-sq-500x500.jpg",
+      "recipeHeading": "Potato Curry",
+      "recipeDesc": "Potato Curry is Best Recipe",
+      "recipePrice": "35",
+      "navigationLink": "veg_recipes"
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://static.toiimg.com/photo/53251884.cms",
+      "recipeHeading": "Paneer Curry",
+      "recipeDesc": "Paneer Curry is Best Recipe",
+      "recipePrice": "50",
+      "navigationLink": "veg_recipes"
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://i.ytimg.com/vi/Do7ZdUodDdw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAEQctXy1aD1723HT7omylxjn4tMQ",
+      "recipeHeading": "Veg Biriyani",
+      "recipeDesc": "Veg Biriyani is Best Recipe",
+      "recipePrice": "100",
+      "navigationLink": "veg_recipes"
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://www.spiceupthecurry.com/wp-content/uploads/2020/08/Gujarati-dal-1.jpg",
+      "recipeHeading": "Dal",
+      "recipeDesc": "Dal is Best Recipe",
+      "recipePrice": "35",
+      "navigationLink": "veg_recipes"
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://b.zmtcdn.com/data/pictures/chains/3/20013733/53bfcda5be549842dd5e880b014339ff.jpg",
+      "recipeHeading": "Parotta",
+      "recipeDesc": "Parotta is Best Recipe",
+      "recipePrice": "40",
+      "navigationLink": "veg_recipes"
+    },
+    {
+      "id": "6",
+      "recipeImageUrl": "https://vegetariangastronomy.com/wp-content/uploads/2014/09/tomato-sev-curry-7.jpg",
+      "recipeHeading": "Tomato Curry",
+      "recipeDesc": "Tomato Curry is Best Recipe",
+      "recipePrice": "35",
+      "navigationLink": "veg_recipes"
+    }
+  ],
+  "VEGRECIPES": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://www.connoisseurusveg.com/wp-content/uploads/2022/11/potato-curry-sq-500x500.jpg",
+      "recipeName": "Potato Curry",
+      "recipeDesc": "Potato Curry aka Aloo Curry recipe with stovetop & Instant pot instructions. Easy Potato Curry packed with delicious flavors & made under 30 minutes in one pot. This incredibly easy Aloo Curry recipe is a perfect family dinner when you want Indian curry in a hurry. Made with pantry staples, yet it is tasty & packed with great flavors of spices and herbs. Serve it over steamed rice, basmati rice or with Indian flatbreads like roti, chapati, plain paratha, tandoori roti or butter naan. You will just love it!",
+      "recipePrice": "35",
+      "stock": "Not Available",
+      "ingredients": [
+        {
+          "ingredient": "2 tablespoons vegetable oil1 medium onion"
+        },
+        {
+          "ingredient": "(diced)3 garlic cloves, (minced)"
+        },
+        {
+          "ingredient": "2 teaspoons freshly grated ginger"
+        },
+        {
+          "ingredient": "2 teaspoons garam masala"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://static.toiimg.com/photo/53251884.cms",
+      "recipeName": "Paneer Curry",
+      "recipeDesc": "Paneer curry is a popular Indian dish featuring soft, cubed paneer (Indian cheese) simmered in a rich, spiced tomato-based gravy. The sauce is infused with aromatic spices like cumin, coriander, and turmeric, creating a flavorful and creamy texture. Served with rice or naan, it's a comforting and satisfying vegetarian option.",
+      "recipePrice": "50",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Paneer, Onions, Tomatoes, Garlic, Ginger, Green chilies, Yogurt, Cilantro, Spices, Oil or ghee, Salt, Water"
+        },
+        {
+          "ingredient": "Yogurt: For creaminess (optional)"
+        },
+        {
+          "ingredient": "Water: For adjusting consistency"
+        },
+        {
+          "ingredient": "Cilantro: For garnish"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://i.ytimg.com/vi/Do7ZdUodDdw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAEQctXy1aD1723HT7omylxjn4tMQ",
+      "recipeName": "Veg Biriyani",
+      "recipeDesc": "Vegetable biryani is a fragrant and flavorful rice dish cooked with a medley of vegetables and aromatic spices like saffron, cloves, and cardamom. It features layers of basmati rice and spiced vegetables, often garnished with fried onions and fresh cilantro. This one-pot dish offers a delightful blend of textures and tastes, making it a hearty and satisfying meal.",
+      "recipePrice": "100",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Basmati rice"
+        },
+        {
+          "ingredient": "Mixed vegetables (e.g., carrots, peas, potatoes)"
+        },
+        {
+          "ingredient": "Yogurt"
+        },
+        {
+          "ingredient": "Aromatic spices (e.g., cumin, coriander, garam masala)"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://www.spiceupthecurry.com/wp-content/uploads/2020/08/Gujarati-dal-1.jpg",
+      "recipeName": "Dal",
+      "recipeDesc": "Dal is a staple Indian dish made from lentils simmered until tender in a spiced, savory broth. It is typically seasoned with ingredients like turmeric, cumin, and garlic, offering a comforting and nutritious meal. Served with rice or flatbreads, dal provides a rich, protein-packed option that's both versatile and satisfying.",
+      "recipePrice": "35",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Lentils (e.g., red, green, or yellow)"
+        },
+        {
+          "ingredient": "Onions"
+        },
+        {
+          "ingredient": "Tomatoes"
+        },
+        {
+          "ingredient": "Spices (e.g., cumin seeds, turmeric powder, garam masala)"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://b.zmtcdn.com/data/pictures/chains/3/20013733/53bfcda5be549842dd5e880b014339ff.jpg",
+      "recipeName": "Parotta",
+      "recipeDesc": "Parotta is a flaky, layered Indian flatbread popular in South Indian cuisine, known for its crispy exterior and soft, airy layers inside. Made from a dough enriched with ghee or oil, it's skillfully folded and rolled to achieve its distinctive texture. Parotta is typically enjoyed with curries, gravies, or as a stand-alone treat, offering a deliciously satisfying experience.",
+      "recipePrice": "40",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "All-purpose flour"
+        },
+        {
+          "ingredient": "Water"
+        },
+        {
+          "ingredient": "Ghee or oil"
+        },
+        {
+          "ingredient": "Salt"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "recipeImageUrl": "https://vegetariangastronomy.com/wp-content/uploads/2014/09/tomato-sev-curry-7.jpg",
+      "recipeName": "Tomato Curry",
+      "recipeDesc": "Tomato curry is a tangy and flavorful dish where tomatoes are simmered with spices such as cumin, coriander, and turmeric to create a rich, aromatic sauce. Often enhanced with onions, garlic, and ginger, this curry has a vibrant, savory taste that pairs perfectly with rice or bread. It's a versatile and comforting option that highlights the natural sweetness and acidity of tomatoes.",
+      "recipePrice": "35",
+      "stock": "Not Available",
+      "ingredients": [
+        {
+          "ingredient": "Tomatoes - The main ingredient, providing the base and tangy flavor."
+        },
+        {
+          "ingredient": "Onions - Adds sweetness and depth to the curry."
+        },
+        {
+          "ingredient": "Garlic - Enhances the overall flavor with its aromatic quality."
+        },
+        {
+          "ingredient": "Spices - Common spices include turmeric, cumin, and garam masala for that authentic taste"
+        }
+      ]
+    }
+  ],
+  "non_veg_recipes": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://tiffinandteaofficial.com/wp-content/uploads/2021/03/IMG_8191-1-scaled-e1616136962207.jpg",
+      "recipeHeading": "Prawns Masala Curry",
+      "recipeDesc": "Prawns Masala Curry is Best Recipe",
+      "recipePrice": "120",
+      "navigationLink": "non_veg_recipes"
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://www.foodandwine.com/thmb/8YAIANQTZnGpVWj2XgY0dYH1V4I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spicy-chicken-curry-FT-RECIPE0321-58f84fdf7b484e7f86894203eb7834e7.jpg",
+      "recipeHeading": "Chicken Curry",
+      "recipeDesc": "Chicken Curry is Best Recipe",
+      "recipePrice": "220",
+      "navigationLink": "non_veg_recipes"
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://i.ytimg.com/vi/qstxR_Jh4aY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC_Suuq5x3tx19D_lMjm3RHk6IpHg",
+      "recipeHeading": "Fish Curry",
+      "recipeDesc": "Fish Curry is Best Recipe",
+      "recipePrice": "160",
+      "navigationLink": "non_veg_recipes"
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://i0.wp.com/www.bharatzkitchen.com/wp-content/uploads/2018/11/mutton-curry-thumb.jpg?fit=800%2C450&ssl=1",
+      "recipeHeading": "Mutton Masala Curry",
+      "recipeDesc": "Mutton Masala Curry is Best Recipe",
+      "recipePrice": "150",
+      "navigationLink": "non_veg_recipes"
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://static.toiimg.com/thumb/52397749.cms?width=1200&height=900",
+      "recipeHeading": "Egg Biryani",
+      "recipeDesc": "Egg Biryani is Best Recipe",
+      "recipePrice": "100",
+      "navigationLink": "non_veg_recipes"
+    },
+    {
+      "id": "7",
+      "recipeImageUrl": "https://vegetariangastronomy.com/wp-content/uploads/2014/09/tomato-sev-curry-7.jpg",
+      "recipeHeading": "Tomato Curry",
+      "recipeDesc": "Tomato Curry is Best Recipe",
+      "navigationLink": "non_veg_recipes"
+    }
+  ],
+  "NONVEGRECIPES": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://tiffinandteaofficial.com/wp-content/uploads/2021/03/IMG_8191-1-scaled-e1616136962207.jpg",
+      "recipeName": "Prawns Masala Curry",
+      "recipeDesc": "Prawn Masala Curry, also known as Shrimp Masala Curry, is a delightful Indian dish that combines succulent prawns with a rich, flavorful masala. The base of this curry includes onions, tomatoes, ginger, garlic, and green chilies. Ground spices like garam masala, red chili powder, turmeric, and coriander powder add depth and warmth. Whole cumin seeds are used for seasoning, and fresh curry leaves provide that classic South Indian touch.",
+      "recipePrice": "350",
+      "stock": "Not Available",
+      "ingredients": [
+        {
+          "ingredient": "Onions, Tomatoes, Ginger, Garlic, and Green Chilies"
+        },
+        {
+          "ingredient": "Ground Spices"
+        },
+        {
+          "ingredient": "Whole Cumin Seeds"
+        },
+        {
+          "ingredient": "Fresh Curry Leaves"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://www.foodandwine.com/thmb/8YAIANQTZnGpVWj2XgY0dYH1V4I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spicy-chicken-curry-FT-RECIPE0321-58f84fdf7b484e7f86894203eb7834e7.jpg",
+      "recipeName": "Chicken Curry",
+      "recipeDesc": "Chicken Curry is a traditional Indian dish made by simmering chicken pieces with plenty of spices, herbs, onions, and tomatoes. It’s believed to have originated in India and is now enjoyed all over the world. The flavorful sauce typically includes ingredients like ginger, garlic, tomato puree, and a variety of spices such as turmeric, cumin, coriander, cinnamon, and cardamom.",
+      "recipePrice": "220",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Chicken"
+        },
+        {
+          "ingredient": "Olive Oi"
+        },
+        {
+          "ingredient": "Onion and Garlic"
+        },
+        {
+          "ingredient": "Spice Blend"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://i.ytimg.com/vi/qstxR_Jh4aY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC_Suuq5x3tx19D_lMjm3RHk6IpHg",
+      "recipeName": "Fish Curry",
+      "recipeDesc": "Fish Curry, a staple in many Asian countries, is a delightful dish that combines succulent fish slices with a burst of Indian flavors. The key ingredients include sautéed onions, ginger, garlic, tomatoes, and ground spices. The onion-tomato masala is simmered to perfection, allowing the flavors to meld. Marinated fish is seared and then briefly cooked in the prepared curry.",
+      "recipePrice": "160",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Fish"
+        },
+        {
+          "ingredient": "Fish"
+        },
+        {
+          "ingredient": "Garlic"
+        },
+        {
+          "ingredient": "Curry Powder"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://i0.wp.com/www.bharatzkitchen.com/wp-content/uploads/2018/11/mutton-curry-thumb.jpg?fit=800%2C450&ssl=1",
+      "recipeName": "Mutton Masala Curry",
+      "recipeDesc": "Mutton Masala Curry, also known simply as Mutton Curry, is a delightful Indian dish featuring soft, tender chunks of meat bathed in a spicy onion-tomato gravy. Wondering how restaurants achieve that melt-in-your-mouth texture? The secret lies in marinating the mutton with ginger-garlic paste, yogurt, and a blend of spices. Once marinated, the meat is cooked alongside finely chopped onions and pureed tomatoes, resulting in a rich and flavorful curry.",
+      "recipePrice": "380",
+      "stock": "Not Available",
+      "ingredients": [
+        {
+          "ingredient": "Mutton (goat meat or lamb) - 500 grams, cut into chunks"
+        },
+        {
+          "ingredient": "Onions - 2 large, finely chopped"
+        },
+        {
+          "ingredient": "Tomatoes - 2 large, chopped"
+        },
+        {
+          "ingredient": "Mutton Masala Powder - 2 tablespoons (available at Indian grocery stores or you can make your own blend)"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://static.toiimg.com/thumb/52397749.cms?width=1200&height=900",
+      "recipeName": "Egg Biryani",
+      "recipeDesc": "Egg Biryani is a flavorful rice dish featuring perfectly cooked eggs nestled in aromatic, spiced basmati rice. The biryani is enriched with layers of caramelized onions, fresh herbs, and a blend of spices that create a rich, savory flavor. Often garnished with fried onions and served with a side of cooling raita, it offers a satisfying and well-balanced meal.",
+      "recipePrice": "150",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Ghee or Oil: You’ll need about 3 tablespoons of ghee or oil for sautéing and flavor."
+        },
+        {
+          "ingredient": "Basmati Rice: Use 2 cups of basmati rice (or any aged rice) for the perfect biryani texture."
+        },
+        {
+          "ingredient": "Ginger-Garlic Paste: About 1 tablespoon of this paste adds depth and aroma."
+        },
+        {
+          "ingredient": "Onion and Boiled Eggs: Thinly slice 1 cup of onion (approximately 1 large onion) and use 4 to 5 boiled eggs (make a few gashes in them)."
+        }
+      ]
+    }
+  ],
+  "desserts": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2lrieITTFy1Pn5EBjjn5evk64i2NJm3csAw&s",
+      "recipeHeading": "Gulab Jamun",
+      "recipeDesc": "Gulab Jamun is Best Recipe",
+      "recipePrice": "270",
+      "navigationLink": "dessert"
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://www.yummyfoodrecipes.com/resources/picture/org/Tasty-Chocolate-Ice-Cream.jpg",
+      "recipeHeading": "Chocolate Ice Cream",
+      "recipeDesc": "Chocolate Ice Cream is Best Recipe",
+      "recipePrice": "400",
+      "navigationLink": "dessert"
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://www.allrecipes.com/thmb/Huh-I63aYc_zZ0NbLECEpFD0BcI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/60564-StrawberryCakeFromScratch-ddfms-4X3-0291-1-cd8254e28ea14112b5fc49e25cd08ff6.jpg",
+      "recipeHeading": "Strawberry Cake",
+      "recipeDesc": "Strawberry Cake is Best Recipe",
+      "recipePrice": "500",
+      "navigationLink": "dessert"
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://cdn.pixabay.com/photo/2024/04/01/06/57/cookies-8668140_640.jpg",
+      "recipeHeading": "Biscuits",
+      "recipeDesc": "Biscuits is Best Recipe",
+      "recipePrice": "120",
+      "navigationLink": "dessert"
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOqv_EtSu-ecA5xiZB7NvR2-JiGYLMyQWD9Q&s",
+      "recipeHeading": "Gelatin",
+      "recipeDesc": "Gelatin is Best Recipe",
+      "recipePrice": "240",
+      "navigationLink": "dessert"
+    },
+    {
+      "id": "6",
+      "recipeImageUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/fruit-custard-recipe.jpg",
+      "recipeHeading": "Custard",
+      "recipeDesc": "Custard is Best Recipe",
+      "recipePrice": "80",
+      "navigationLink": "dessert"
+    }
+  ],
+  "DESSERTS": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2lrieITTFy1Pn5EBjjn5evk64i2NJm3csAw&s",
+      "recipeName": "Gulab Jamun",
+      "recipeDesc": "Gulab Jamun is a popular Indian dessert made from milk solids, traditionally khoya, which are shaped into small balls and deep-fried until golden brown. These balls are then soaked in a fragrant sugar syrup flavored with rose water, cardamom, and saffron. The result is a soft, melt-in-the-mouth sweet treat often garnished with nuts.",
+      "recipePrice": "270",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "1 cup milk powder"
+        },
+        {
+          "ingredient": "1/4 cup all-purpose flour"
+        },
+        {
+          "ingredient": "1/4 teaspoon baking powder"
+        },
+        {
+          "ingredient": "2 tablespoons ghee (clarified butter)"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://www.yummyfoodrecipes.com/resources/picture/org/Tasty-Chocolate-Ice-Cream.jpg",
+      "recipeName": "Chocolate Ice Cream",
+      "recipeDesc": "Chocolate ice cream is a beloved dessert made from a blend of cocoa powder, cream, sugar, and vanilla. It has a rich, creamy texture and a deep chocolate flavor that delights the taste buds. Often enjoyed on its own, it can also be paired with various toppings or used as a base for other desserts.",
+      "recipePrice": "400",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Heavy Cream: Provides a rich and creamy texture."
+        },
+        {
+          "ingredient": "Sweetened Condensed Milk: Adds sweetness and helps with the smooth consistency."
+        },
+        {
+          "ingredient": "Cocoa Powder: Gives the ice cream its chocolate flavor."
+        },
+        {
+          "ingredient": "Vanilla Extract: Enhances the overall flavor."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://www.allrecipes.com/thmb/Huh-I63aYc_zZ0NbLECEpFD0BcI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/60564-StrawberryCakeFromScratch-ddfms-4X3-0291-1-cd8254e28ea14112b5fc49e25cd08ff6.jpg",
+      "recipeName": "Strawberry Cake",
+      "recipeDesc": "Strawberry cake is a delightful dessert featuring layers of moist, fluffy cake infused with fresh strawberry flavor. Often topped with a luscious strawberry buttercream or cream cheese frosting, it offers a perfect balance of sweetness and tanginess. The vibrant pink color and juicy strawberry pieces make it visually appealing and delicious.",
+      "recipePrice": "500",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Strawberries: Fresh or pureed strawberries give the cake its signature flavor."
+        },
+        {
+          "ingredient": "All-Purpose Flour: Provides the structure for the cake."
+        },
+        {
+          "ingredient": "Sugar: Adds sweetness to the cake."
+        },
+        {
+          "ingredient": "Eggs: Help bind the ingredients together and add moisture."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://cdn.pixabay.com/photo/2024/04/01/06/57/cookies-8668140_640.jpg",
+      "recipeName": "Biscuits",
+      "recipeDesc": "Biscuits are a popular baked good, often enjoyed as a snack or with meals. They are typically made from flour, butter, milk, and a leavening agent like baking powder. Biscuits can be soft and fluffy or crisp and crunchy, depending on the recipe.",
+      "recipePrice": "120",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Self-rising flour: 2 cups"
+        },
+        {
+          "ingredient": "Butter: 4 tablespoons (cold and cut into small pieces)"
+        },
+        {
+          "ingredient": "Milk: 1 cup"
+        },
+        {
+          "ingredient": "Sugar: 1 tablespoon"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOqv_EtSu-ecA5xiZB7NvR2-JiGYLMyQWD9Q&s",
+      "recipeName": "Gelatin",
+      "recipeDesc": "Gelatin is a translucent, colorless, and flavorless substance derived from collagen found in animal bones, skin, and connective tissues. It is commonly used as a gelling agent in food products like jellies, marshmallows, and gummy candies. Gelatin is also utilized in pharmaceuticals, cosmetics, and photographic films. When dissolved in hot water and cooled, it forms a gel-like consistency.",
+      "recipePrice": "240",
+      "stock": "Not Available",
+      "ingredients": [
+        {
+          "ingredient": "Gelatin powder: 1 tablespoon (unflavored)"
+        },
+        {
+          "ingredient": "Water: 1 cup (divided into 1/2 cup cold and 1/2 cup hot)"
+        },
+        {
+          "ingredient": "Sugar: 1/4 cup"
+        },
+        {
+          "ingredient": "Flavoring: 1 cup (such as fruit juice or flavored syrup)"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "recipeImageUrl": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/fruit-custard-recipe.jpg",
+      "recipeName": "Custard",
+      "recipeDesc": "Custard is a delightful dessert that offers silky, dreamy indulgence in every spoonful. Whether served warm on top of cakes, cold in a trifle, or as a cake filling, it’s a timeless treat that appeals to all ages. The key ingredients for a homemade vanilla custard include whole milk, heavy cream, granulated sugar, egg yolks, and the magic of real vanilla beans or vanilla paste. Steeping the vanilla bean infuses the custard with intense flavor, elevating it to gourmet status.",
+      "recipePrice": "165",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "4 cups whole milk"
+        },
+        {
+          "ingredient": "4 large eggs"
+        },
+        {
+          "ingredient": "1/2 cup sugar"
+        },
+        {
+          "ingredient": "1 teaspoon vanilla extract"
+        }
+      ]
+    }
+  ],
+  "snacks": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://cdn.pixabay.com/photo/2024/01/29/21/50/ai-generated-8540840_1280.jpg",
+      "recipeHeading": "Samosa",
+      "recipeDesc": "Samosa is Best Recipe",
+      "recipePrice": "100",
+      "navigationLink": "snacks"
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://farm9.staticflickr.com/8669/16110675524_38a8346df1_o.jpg",
+      "recipeHeading": "Mirchi Bajji",
+      "recipeDesc": "Marchi Bajji is Best Recipe",
+      "recipePrice": "160",
+      "navigationLink": "snacks"
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF3bo998M9XfXDyDvey7Oz8nUmJDaDihr9gw&s",
+      "recipeHeading": "Jalebi",
+      "recipeDesc": "Jalebi is Best Recipe",
+      "recipePrice": "220",
+      "navigationLink": "snacks"
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://thissillygirlskitchen.com/wp-content/uploads/2014/08/Potato-Chips-Recipe-6.jpg",
+      "recipeHeading": "Aloo Chips",
+      "recipeDesc": "Aloo Chips is Best Recipe",
+      "recipePrice": "120",
+      "navigationLink": "snacks"
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2lrieITTFy1Pn5EBjjn5evk64i2NJm3csAw&s",
+      "recipeHeading": "Gulab Jamun",
+      "recipeDesc": "Gulab Jamun is Best Recipe",
+      "recipePrice": "240",
+      "navigationLink": "snacks"
+    }
+  ],
+  "SNACKS": [
+    {
+      "id": "1",
+      "recipeImageUrl": "https://cdn.pixabay.com/photo/2024/01/29/21/50/ai-generated-8540840_1280.jpg",
+      "recipeName": "Samosa",
+      "recipeDesc": "Samosas are crispy, deep-fried pastries filled with a spiced mixture of potatoes and peas. The dough is made from all-purpose flour, ghee, and water, rolled into thin sheets, and shaped into cones. The filling is prepared by cooking potatoes and peas with spices like cumin, coriander, and garam masala.",
+      "recipePrice": "100",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "All-Purpose Flour - for the dough."
+        },
+        {
+          "ingredient": "Potatoes - for the filling."
+        },
+        {
+          "ingredient": "Peas - to add to the filling."
+        },
+        {
+          "ingredient": "Spices - like cumin, coriander, and garam masala for flavor."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "recipeImageUrl": "https://farm9.staticflickr.com/8669/16110675524_38a8346df1_o.jpg",
+      "recipeName": "Mirchi Bajji",
+      "recipeDesc": "Mirchi Bajji, also known as Mirapakaya Bajji, is a popular South Indian street food. It consists of large green chilies stuffed with a tangy spice mixture, dipped in gram flour batter, and deep-fried until crispy. The result is a deliciously spicy and crunchy snack, often enjoyed with a cup of tea.",
+      "recipePrice": "160",
+      "stock": "Not Available",
+      "ingredients": [
+        {
+          "ingredient": "Large Green Chilies - for the main component."
+        },
+        {
+          "ingredient": "Gram Flour (Besan) - for the batter."
+        },
+        {
+          "ingredient": "Rice Flour - to add crispiness to the batter."
+        },
+        {
+          "ingredient": "Spices - such as cumin, coriander, and salt for flavor."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF3bo998M9XfXDyDvey7Oz8nUmJDaDihr9gw&s",
+      "recipeName": "Jalebi",
+      "recipeDesc": "Jalebi is a popular Indian sweet made by deep-frying a fermented batter in spiral shapes and soaking them in sugar syrup. The result is a crispy, juicy, and syrupy treat that is enjoyed during festivals and celebrations. It’s often flavored with saffron and cardamom for an extra touch of aroma and taste.",
+      "recipePrice": "220",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "All-purpose flour (maida)"
+        },
+        {
+          "ingredient": "Yogurt (curd)"
+        },
+        {
+          "ingredient": "Sugar"
+        },
+        {
+          "ingredient": "Ghee or oil (for frying)"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "recipeImageUrl": "https://thissillygirlskitchen.com/wp-content/uploads/2014/08/Potato-Chips-Recipe-6.jpg",
+      "recipeName": "Aloo Chips",
+      "recipeDesc": "Aloo chips, or potato chips, are a crispy and delicious snack made by thinly slicing potatoes, soaking them in cold water, and deep-frying until golden brown. After frying, they are seasoned with salt and any other desired spices. These homemade chips are perfect for a quick and satisfying treat. Enjoy them fresh for the best crunch!",
+      "recipePrice": "120",
+      "stock": "Available",
+      "ingredients": [
+        {
+          "ingredient": "Potatoes – Thinly sliced."
+        },
+        {
+          "ingredient": "Oil – For frying (vegetable oil, canola oil, or sunflower oil work well)."
+        },
+        {
+          "ingredient": "Salt – To taste."
+        },
+        {
+          "ingredient": "Optional – You can add a pinch of pepper or a bit of paprika for extra flavor if desired."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "recipeImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2lrieITTFy1Pn5EBjjn5evk64i2NJm3csAw&s",
+      "recipeName": "Gulab Jamun",
+      "recipeDesc": "Gulab Jamun is a popular Indian dessert made from milk solids, traditionally khoya, which are shaped into small balls and deep-fried until golden brown. These balls are then soaked in a fragrant sugar syrup flavored with rose water, cardamom, and saffron. The result is a soft, melt-in-the-mouth sweet treat often garnished with nuts.",
+      "recipePrice": "240",
+      "stock": "Not Available",
+      "ingredients": [
+        {
+          "ingredient": "1 cup milk powder"
+        },
+        {
+          "ingredient": "1/4 cup all-purpose flour"
+        },
+        {
+          "ingredient": "1/4 teaspoon baking powder"
+        },
+        {
+          "ingredient": "2 tablespoons ghee (clarified butter)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+.all-snacks-recipes-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Roboto";
+    /* background-color: rgb(220, 220, 220); */
+    min-height: 100vh;
+    padding: 10px 15px;
+    padding-top: 120px;
+    gap: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .all-snacks-recipes-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.all-snacks-recipe-item-img {
+    width: 450px;
+    min-height: 450px;
+    border-radius: 6px;
+}
+
+.all-snacks-recipe-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .all-snacks-recipe-details-container {
+        width: 100%;
+    }
+}
+
+.all-snacks-recipe-name {
+    font-size: 28px;
+    /* font-family: sans-serif; */
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.all-snacks-recipe-desc {
+    font-size: 17px;
+    color: #616e7c;
+}
+
+.all-snacks-recipe-price,
+.snacks-stock {
+    color: gray;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* font-style: italic; */
+}
+
+.snacks-stock {
+    font-size: 17px;
+}
+
+.snacks-price,
+.stock {
+    font-size: 17px;
+    font-style: normal;
+    margin-right: 5px;
+    color: #000;
+    font-weight: 700;
+}
+
+.quantity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    align-self: flex-start;
+    padding-left: 10px;
+}
+
+.quantity-count {
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    padding: 5px;
+    color: #171f46;
+    user-select: none;
+}
+
+.increment-decrement-btn {
+    cursor: pointer;
+}
+
+.add-to-fav-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+    .quantity-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .add-to-fav-btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.all-snacks-recipe-hr {
+    border: 2px solid #616e7c;
+}
+
+.all-snacks-recipe-ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.all-snacks-recipe-ingredients-heading {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.all-snacks-recipe-ingredients-list-wise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: disc;
+    /* line-height: 30px; */
+    gap: 10px;
+}
+
+.all-snacks-recipe-item {
+    color: #616e7c;
+}
+
+.all-snacks-recipe-failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-snacks-recipe-falilure-img {
+    width: 380px;
+    margin: 30px 0;
+}
+
+.all-snacks-recipe-failure-heading {
+    font-size: 28px;
+    font-family: "Roboto";
+    width: 400px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.all-snacks-recipe-failure-desc {
+    font-size: 17px;
+    font-family: "Roboto";
+    color: gray;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.all-snacks-recipe-failure-button {
+    font-family: "Roboto";
+    width: 80px;
+    margin: 7px;
+}

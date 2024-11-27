@@ -1,0 +1,103 @@
+.payment-gateway-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #272b34;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 60px;
+    gap: 50px;
+}
+
+.payment-gateway-main-heading {
+    /* font-family: "Lucida Calligraphy"; */
+    font-family: "Times New Roman";
+    color: #889094;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.payment-gateway-card-container {
+    /* min-height: 580px; */
+    width: 700px;
+    background-color: #2c343b;
+    border-radius: 8px;
+    border: 1px solid #596063;
+    padding-bottom: 30px;
+}
+
+.payment-gateway-card {
+    padding: 20px 80px;
+}
+
+/* .payment-gateway-heading-timer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    padding-bottom: 10px;
+} */
+
+.arrow-icon-container {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #4d5557;
+    align-self: flex-start;
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    border-radius: 8px 0 4px 0;
+}
+
+/* .payment-gateway-heading {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.timer {
+    background-color: #596063;
+    padding: 3px 8px;
+    border-radius: 2px;
+} */
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.payment-gateway-card {
+    gap: 20px;
+}
+
+.loading-payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 500px; */
+    min-height: 450px;
+}

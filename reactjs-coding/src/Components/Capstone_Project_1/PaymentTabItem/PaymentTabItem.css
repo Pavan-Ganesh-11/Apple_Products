@@ -1,0 +1,28 @@
+.tab-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.tab-btn {
+    height: 35px;
+    width: 160px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-bottom: 3px solid gray;
+    /* border-radius: 3px; */
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(190, 190, 190);
+    font-size: 17px;
+}
+
+.active-tab {
+    color: #fff;
+    border-bottom: 3px solid aqua;
+    font-weight: 700;
+}
